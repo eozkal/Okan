@@ -40,6 +40,8 @@ public class karsilastirma {
 		else message += " kaldınız.";
 		
 		System.out.println(message);
+		
+		Klavye.close();
 			
 	}
 

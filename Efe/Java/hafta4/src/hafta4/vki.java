@@ -28,6 +28,8 @@ public class vki {
 		
 		System.out.println(message);
 		
+		Klavye.close();
+		
 
 	}
 
