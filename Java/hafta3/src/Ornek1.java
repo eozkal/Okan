@@ -8,7 +8,7 @@ public class Ornek1 {
 		vizeNotu = 40;
 		finalNotu = 70;
 
-		basariNotu = (byte) (((vizeNotu * 0.4) + (finalNotu * 0.6)) / 2);
+		basariNotu = (byte) ((vizeNotu * 0.4) + (finalNotu * 0.6));
 		System.out.println("Sayın " + isim + ", başarı notunuz: " + basariNotu);
 
 	}
