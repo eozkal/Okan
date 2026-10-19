@@ -10,18 +10,18 @@ public class karsilastirma {
 		
 		Scanner Klavye = new Scanner(System.in);
 		
-		System.out.println("Ad giriniz: ");
+		System.out.print("Ad giriniz: ");
 		ad = Klavye.next();
 		
-		System.out.println("Vize notu giriniz: ");
+		System.out.print("Vize notu giriniz: ");
 		vn = Klavye.nextByte();
 		
-		System.out.println("Final notu giriniz: ");
+		System.out.print("Final notu giriniz: ");
 		fn = Klavye.nextByte();
 		
 		bn = (byte) ((vn * 0.4) + (fn * 0.6));
 		
-		if (bn > 100 || bn < 0) System.out.println("Final notu geçersizdir.");
+		if (bn > 100 || bn < 0) {System.out.println("Başarı notu geçersizdir."); Klavye.close(); return;}
 		
 		message = "Sayın " + ad + ", " + bn + " başarı notuyla ve ";
 		

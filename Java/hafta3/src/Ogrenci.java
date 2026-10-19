@@ -7,7 +7,7 @@ public class Ogrenci {
 		Scanner Klavye = new Scanner(System.in);
 		
 		System.out.println("İsim giriniz: ");
-		String isim = Klavye.next();
+		String isim = Klavye.nextLine();
 		
 		System.out.println("Vize notu giriniz: ");
 		vizeNotu = Klavye.nextByte();

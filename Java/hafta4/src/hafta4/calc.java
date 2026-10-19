@@ -13,10 +13,10 @@ public class calc {
 		act = Klavye.nextByte();
 		
 		System.out.println("İlk sayı: ");
-		n1 = Klavye.nextByte();
+		n1 = Klavye.nextFloat();
 		
 		System.out.println("İkinci sayı: ");
-		n2 = Klavye.nextByte();
+		n2 = Klavye.nextFloat();
 		
 		if (act == 1) {sonuc = n1 + n2; islem = "+";}
 		else if (act == 2) {sonuc = n1 - n2; islem = "-";}
@@ -24,7 +24,7 @@ public class calc {
 		else if (act == 4) {sonuc = n1 / n2; islem = "/";}
 		else {System.out.println("Geçersiz işlem."); Klavye.close(); return;}
 		
-		System.out.println("" + n1 + " " + islem + " " + n2 + " işleminin sonucu " + sonuc);
+		System.out.println(n1 + " " + islem + " " + n2 + " işleminin sonucu " + sonuc);
 		
 		Klavye.close();
 
