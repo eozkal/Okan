@@ -10,7 +10,7 @@ public class vki {
 		float vki;
 		String message;
 		
-		/* test */
+		/* testing */
 		
 		System.out.println("Boyunuzu giriniz (m): ");
 		boy = Klavye.nextFloat();
