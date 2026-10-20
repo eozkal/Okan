@@ -6,15 +6,14 @@ public class vki {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		float boy, kilo;
-		float vki;
+		double boy, kilo, vki;
 		String message;
 		
 		System.out.println("Boyunuzu giriniz (m): ");
-		boy = scanner.nextFloat();
+		boy = scanner.nextDouble();
 		
 		System.out.println("Kilonuzu giriniz (kg): ");
-		kilo = scanner.nextFloat();
+		kilo = scanner.nextDouble();
 		
 		vki = kilo / (boy * boy);
 		
