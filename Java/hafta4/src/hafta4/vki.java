@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class vki {
 
 	public static void main(String[] args) {
-		Scanner Klavye = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		float boy, kilo;
 		float vki;
 		String message;
 		
 		System.out.println("Boyunuzu giriniz (m): ");
-		boy = Klavye.nextFloat();
+		boy = scanner.nextFloat();
 		
 		System.out.println("Kilonuzu giriniz (kg): ");
-		kilo = Klavye.nextFloat();
+		kilo = scanner.nextFloat();
 		
 		vki = kilo / (boy * boy);
 		
@@ -28,7 +28,7 @@ public class vki {
 		
 		System.out.println(message);
 		
-		Klavye.close();
+		scanner.close();
 		
 
 	}

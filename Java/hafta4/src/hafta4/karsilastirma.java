@@ -8,20 +8,20 @@ public class karsilastirma {
 		byte vn, fn, bn;
 		String ad, message;
 		
-		Scanner Klavye = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Ad giriniz: ");
-		ad = Klavye.next();
+		ad = scanner.next();
 		
 		System.out.print("Vize notu giriniz: ");
-		vn = Klavye.nextByte();
+		vn = scanner.nextByte();
 		
 		System.out.print("Final notu giriniz: ");
-		fn = Klavye.nextByte();
+		fn = scanner.nextByte();
 		
 		bn = (byte) ((vn * 0.4) + (fn * 0.6));
 		
-		if (bn > 100 || bn < 0) {System.out.println("Başarı notu geçersizdir."); Klavye.close(); return;}
+		if (bn > 100 || bn < 0) {System.out.println("Başarı notu geçersizdir."); scanner.close(); return;}
 		
 		message = "Sayın " + ad + ", " + bn + " başarı notuyla ve ";
 		
@@ -41,7 +41,7 @@ public class karsilastirma {
 		
 		System.out.println(message);
 		
-		Klavye.close();
+		scanner.close();
 			
 	}
 

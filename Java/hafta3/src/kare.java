@@ -4,14 +4,14 @@ public class kare {
 
 	public static void main(String[] args) {
 		int kenar;
-		Scanner Klavye = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Kare kenarı giriniz: ");
-		kenar = Klavye.nextInt();
+		kenar = scanner.nextInt();
 		
 		System.out.println(kenar * 4);
 		
-		Klavye.close();
+		scanner.close();
 
 	}
 

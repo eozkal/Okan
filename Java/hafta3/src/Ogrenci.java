@@ -4,22 +4,22 @@ public class Ogrenci {
 
 	public static void main(String[] args) {
 		byte vizeNotu,finalNotu,basariNotu;
-		Scanner Klavye = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("İsim giriniz: ");
-		String isim = Klavye.nextLine();
+		String isim = scanner.nextLine();
 		
 		System.out.println("Vize notu giriniz: ");
-		vizeNotu = Klavye.nextByte();
+		vizeNotu = scanner.nextByte();
 		
 		System.out.println("Final notu giriniz: ");
-		finalNotu = Klavye.nextByte();
+		finalNotu = scanner.nextByte();
 		
 		basariNotu = (byte) ((vizeNotu * 0.4) + (finalNotu * 0.6));
 		
 		System.out.println("Sayın " + isim + ", başarı notunuz: " + basariNotu);
 		
-		Klavye.close();
+		scanner.close();
 
 	}
 
