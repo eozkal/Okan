@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ornek4 {
+public class operator3 {
 
 	public static void main(String[] args) {
 		byte vizeNotu,finalNotu,basariNotu;
