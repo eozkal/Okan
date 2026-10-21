@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ornek2 {
+public class operator32 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
