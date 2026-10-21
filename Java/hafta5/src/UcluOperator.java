@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class operator3 {
+public class UcluOperator {
 
 	public static void main(String[] args) {
 		byte vizeNotu,finalNotu,basariNotu;
