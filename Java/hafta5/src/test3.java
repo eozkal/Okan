@@ -16,7 +16,7 @@ public class test3 {
 		System.out.println("İnternet kullanımınız (GB): ");
 		inter = scanner.nextDouble();
 
-	    System.out.println("Faturanız: " + (dk * 0.5 + sms * 0.4 + inter * 20) * 1.3125);
+	    System.out.println("Faturanız: " + (dk * 0.5 + sms * 0.4 + inter * 20) * 1.3);
 	    
 	    scanner.close();
 
