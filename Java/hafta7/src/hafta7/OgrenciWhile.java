@@ -8,10 +8,11 @@ public class OgrenciWhile {
 		Scanner scanner = new Scanner(System.in);
 		byte vn, fn, bn;
 		String devam = "e";
-		int vnt = 0, fnt = 0, bnt = 0, i = 1, ks = 0;
+		int vnt = 0, fnt = 0, bnt = 0, ks = 0;
 
 		while (devam.equalsIgnoreCase("e")) {
-			System.out.print(i + ". kişinin vize notu: ");
+			ks++;
+			System.out.print(ks + ". kişinin vize notu: ");
 			vn = scanner.nextByte();
 			vnt += vn;
 			System.out.print(ks + ". kişinin final notu: ");
@@ -19,8 +20,7 @@ public class OgrenciWhile {
 			fnt += fn;
 			bn = (byte) ((vn * 0.4) + (fn * 0.6));
 			bnt += bn;
-			System.out.println(i + ". kişinin başarı notu: " + bn);
-			ks++;
+			System.out.println(ks + ". kişinin başarı notu: " + bn);
 			System.out.println("Devam et? (e)");
 			devam = scanner.next();
 		}
