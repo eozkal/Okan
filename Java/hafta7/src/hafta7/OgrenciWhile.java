@@ -17,6 +17,7 @@ public class OgrenciWhile {
 			vnt += vn;
 			System.out.print(ks + ". kişinin final notu: ");
 			fn = scanner.nextByte();
+			System.out.println("hi");
 			fnt += fn;
 			bn = (byte) ((vn * 0.4) + (fn * 0.6));
 			bnt += bn;
