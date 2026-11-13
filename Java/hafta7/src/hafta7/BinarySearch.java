@@ -11,11 +11,10 @@ public class BinarySearch {
 		int tahmin = 50, tahminSayısı = 0;
 		double aralik = 50;
 		
-		while (Math.abs(aralik) >= 0.5) {
-			System.out.println("Tahmininiz: " + tahmin + "?\nTahminim bu sayıdan... (K)üçük, (B)üyük, (E)şit.");
-			sonuc = scanner.next();
-			
+		while (Math.abs(aralik) >= 0.5 && !sonuc.equalsIgnoreCase("e")) {
+			System.out.println("Tahmininiz: " + tahmin + "?\nTahminim bu sayıdan... (K)üçük, (B)üyük, (E)şit.");			
 			do {
+				sonuc = scanner.next();
 				if (sonuc.equalsIgnoreCase("e")) {System.out.println("Sayınızı " + tahminSayısı + " tahminde buldum."); break;}
 				else if (sonuc.equalsIgnoreCase("k")) aralik = -Math.abs(aralik);
 				else if (sonuc.equalsIgnoreCase("b")) aralik = +Math.abs(aralik);
