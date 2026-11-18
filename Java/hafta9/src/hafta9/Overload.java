@@ -14,6 +14,8 @@ public class Overload {
 	public static double ortalama(double a, double b, double c) {
 		return (a+b+c) /3;
 	}
+	
+	// hi
 
 	public static int ortalama(int a, int b, int c) {
 		return (a+b+c) /3;
