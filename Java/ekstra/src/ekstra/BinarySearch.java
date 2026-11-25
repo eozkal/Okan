@@ -1,4 +1,4 @@
-package hafta7;
+package ekstra;
 
 import java.util.Scanner;
 
